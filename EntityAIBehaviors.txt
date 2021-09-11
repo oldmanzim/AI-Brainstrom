@@ -1,4 +1,4 @@
-The goal of this system is behave similarly other game reputation/relationship system but be different enough that is does not infringe upon WB Nemesis system patent.
+The goal of this system is behave similarly other game reputation/relationship system but be different enough that is does not infringe upon the WB Nemesis System patent.
 
 Terminology:
 Entity - In the context of the following system, an Entity is any intractable subject such as a non-player character (NPC) or Faction of NPCs that's capable of remembering and acting upon the actions of another entity.
@@ -8,7 +8,7 @@ Player - The source or external human input.
 Faction - A group of associated Entities. 
 
 Summary:
-This is a Player agnostic AI system that manages social and actionable behaviors between Entities, some of which that player may take control of during play. Please note that a Player controlled Entity is not a Player character in the traditional sense of the term. Every Entity, regardless weather they're being controlled by the player, may develop Memory Patterns toward other Entities. Should the Player choose to no longer control their current entity and select another, the previous entity will retrain all of the Memory Patterns accrued while the Player controlled them and will behave accordingly based on those Memory Patterns; likewise, the Memory Patterns of the newly controlled Entity will not be effected as a result of the transfer of control to the Player. Factions of Entities may also have Memory Patterns of their own, this may result in rivalries and alliances between Factions or Factions having vendettas or patronage toward a specific Entity. 
+This is a Player agnostic AI system that manages social and actionable behaviors between Entities, some of which a Player may take control of during a play session. Please note that a Player controlled Entity is not a "Player Character" in the traditional sense of the term. Every Entity, regardless whether they're being controlled by the Player, may develop Memory Patterns toward other Entities. For Example: Should the Player choose to no longer control their current Entity and select another, the previously controlled Entity will retrain all of the Memory Patterns accrued while the Player controlled them and will behave accordingly based on those Memory Patterns; likewise, the Memory Patterns of the newly controlled Entity will not be effected as a result of the transfer of control to the Player. Factions of Entities may also have Memory Patterns of their own, this may result in rivalries and alliances between Factions or Factions having vendettas or patronage toward a specific Entity. 
 
 Defining Characteristic:
 1. The AI System is Player agnostic: The AI System and any other Entity is incapable of identifying another Entity being controlled by a Player.
