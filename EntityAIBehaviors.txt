@@ -1,0 +1,20 @@
+The goal of this system is behave similarly other game reputation/relationship system but be different enough that is does not infringe upon WB Nemesis system patent.
+
+Terminology:
+Entity - In the context of the following system, an Entity is any intractable subject such as a non-player character (NPC) or Faction of NPCs that's capable of remembering and acting upon the actions of another entity.
+AI System - An independent architecture indented to manage and alter the Memory Patterns between entities. 
+Memory Pattern - Any Entity variables, that may be use to alter behavior between Entities; such variables may include (but should not be limited to) reputation status, relationship status, contact history, and physical appearance. 
+Player - The source or external human input.
+Faction - A group of associated Entities. 
+
+Summary:
+This is a Player agnostic AI system that manages social and actionable behaviors between Entities, some of which that player may take control of during play. Please note that a Player controlled Entity is not a Player character in the traditional sense of the term. Every Entity, regardless weather they're being controlled by the player, may develop Memory Patterns toward other Entities. Should the Player choose to no longer control their current entity and select another, the previous entity will retrain all of the Memory Patterns accrued while the Player controlled them and will behave accordingly based on those Memory Patterns; likewise, the Memory Patterns of the newly controlled Entity will not be effected as a result of the transfer of control to the Player. Factions of Entities may also have Memory Patterns of their own, this may result in rivalries and alliances between Factions or Factions having vendettas or patronage toward a specific Entity. 
+
+Defining Characteristic:
+1. The AI System is Player agnostic: The AI System and any other Entity is incapable of identifying another Entity being controlled by a Player.
+2. No Player character: The player character, as an individual, does not exist. All behavioral interactions are between Entities, which the player may take control of in a session. This must be distinguished due to the fact that if the Player takes control of a different Entity, any established Memory Patterns from the Previous Entity remain associated with that Entity and do not become associated with the new Player controlled Entity. Furthermore, Memory Patterns can be altered between the behavioral actions of Entities regardless of whether they are under the player's control.
+3. Entities may or may not perform actions against other Entities based on Memory Patterns. 
+4. Entities can impersonate other Entities: Under specific circumstances, an Entity may pose as another target Entity and potentially effect the Memory Patterns of other (third-party) Entities towards the target Entity or toward the target Entity itself. 
+5. Entities can be anonymous: Under specific circumstances, an Entity may become anonymous in the presence of other Entities; which may have an effect of the Entities Memory Patterns toward the Anonymous Entity. 
+6. Entity Absence: Entities are aware of the absence of other entities, which may cause alterations to Memory Patterns; such instances of absence may include (but should not be limited to) the death/destruction of another Entity, a lost/missing Entity, etc.
+7. Entity Forget: Under specific circumstances, an Entity may forget/disassociate the Memory Patterns towards another Entity. 
